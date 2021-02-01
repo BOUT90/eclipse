@@ -1,0 +1,262 @@
+{
+	"mappings": [
+		{
+			"nodeid": "org.eclipse.wst.jsdt.core",
+			"settings": [
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_parameterized_type_reference",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_multiple_field_declarations",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_for_inits",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_method_invocation_arguments",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_multiple_local_declarations",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_method_declaration_parameters",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_type_arguments",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_for_increments",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_type_parameters",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_enum_declarations",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_enum_constant_arguments",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_allocation_expression",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_array_initializer"
+					],
+					"sourceDefault": "insert",
+					"target": "javascript.format.insertSpaceAfterCommaDelimiter",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_constructor_declaration"
+					],
+					"sourceDefault": "do not insert",
+					"target": "javascript.format.insertSpaceAfterConstructor",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_function_keyword"
+					],
+					"sourceDefault": "do not insert",
+					"target": "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_switch",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_while",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_catch",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_for",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_if"
+					],
+					"sourceDefault": "insert",
+					"target": "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_brace_in_array_initializer"
+					],
+					"sourceDefault": "insert",
+					"target": "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_bracket_in_array_reference",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_bracket_in_array_reference"
+
+					],
+					"sourceDefault": "do not insert",
+					"target": "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_for",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_switch",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_parenthesized_expression",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_while",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_if",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_catch",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_for",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_switch",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_parenthesized_expression",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_while",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_if",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_catch"
+					],
+					"sourceDefault": "do not insert",
+					"target": "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_semicolon_in_for"
+					],
+					"sourceDefault": "insert",
+					"target": "javascript.format.insertSpaceAfterSemicolonInForStatements",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_after_binary_operator",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_binary_operator"
+					],
+					"sourceDefault": "insert",
+					"target": "javascript.format.insertSpaceBeforeAndAfterBinaryOperators",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_method_invocation",
+						"org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_method_declaration"
+					],
+					"sourceDefault": "do not insert",
+					"target": "javascript.format.insertSpaceBeforeFunctionParenthesis",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.brace_position_for_block"
+					],
+					"sourceDefault": "end_of_line",
+					"target": "javascript.format.placeOpenBraceOnNewLineForControlBlocks",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"org.eclipse.wst.jsdt.core.formatter.brace_position_for_method_declaration"
+					],
+					"sourceDefault": "end_of_line",
+					"target": "javascript.format.placeOpenBraceOnNewLineForFunctions",
+					"targetDefault": false
+				}
+
+			]
+		},
+		{
+			"nodeid": "com.genuitec.eclipse.typescript",
+			"settings": [
+				{
+					"source": [
+						"formatter.insertSpaceAfterCommaDelimiter"
+					],
+					"sourceDefault": "true",
+					"target": "typescript.format.insertSpaceAfterCommaDelimiter",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterConstructor"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterConstructor",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterFunctionKeywordForAnonymousFunctions"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterKeywordsInControlFlowStatements"
+					],
+					"sourceDefault": "true",
+					"target": "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterSemicolonInForStatements"
+					],
+					"sourceDefault": "true",
+					"target": "typescript.format.insertSpaceAfterSemicolonInForStatements",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceAfterTypeAssertion"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceAfterTypeAssertion",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.insertSpaceBeforeAndAfterBinaryOperators"
+					],
+					"sourceDefault": "true",
+					"target": "typescript.format.insertSpaceBeforeAndAfterBinaryOperators",
+					"targetDefault": true
+				},
+				{
+					"source": [
+						"formatter.insertSpaceBeforeFunctionParenthesis"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.insertSpaceBeforeFunctionParenthesis",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.placeOpenBraceOnNewLineForControlBlocks"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.placeOpenBraceOnNewLineForControlBlocks",
+					"targetDefault": false
+				},
+				{
+					"source": [
+						"formatter.placeOpenBraceOnNewLineForFunctions"
+					],
+					"sourceDefault": "false",
+					"target": "typescript.format.placeOpenBraceOnNewLineForFunctions",
+					"targetDefault": false
+				}
+			]
+		}
+	]
+}

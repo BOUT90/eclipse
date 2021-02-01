@@ -1,0 +1,46 @@
+{
+    "defaultMappings" : [
+        {
+            "eclipseNode": "org.eclipse.ui.editors",
+            "preferenceName" : "spacesForTabs",
+			"type" : "boolean",
+			"optional" : "true",
+            "engineTargetKey": "editor.insertSpaces",
+            "eclipsePreferencePageNode" : "org.eclipse.ui.preferencePages.GeneralTextEditor",
+            "eclipsePreferenceLabel" : "Insert spaces for tabs"
+        },
+        {
+            "eclipseNode": "org.eclipse.ui.editors",
+            "preferenceName" : "tabWidth",
+			"type" : "integer",
+			"optional" : "true",
+            "engineTargetKey": "editor.tabSize",
+            "eclipsePreferencePageNode" : "org.eclipse.ui.preferencePages.GeneralTextEditor",
+            "eclipsePreferenceLabel" : "Displayed tab width"
+        },
+        {
+            "eclipseNode": "org.eclipse.ui.workbench",
+            "preferenceName" : "SAVE_AUTOMATICALLY",
+			"type" : "boolean",
+			"optional" : "false",
+            "engineTargetKey" : "files.autoSave",
+            "valueMappings" : [
+                {
+                    "eclipseValue": true,
+                    "engineValue": "afterDelay"
+                },
+                {
+                    "eclipseValue": false,
+                    "engineValue": "off"
+                }
+            ]
+        },
+        {
+            "eclipseNode": "org.eclipse.ui.workbench",
+            "preferenceName" : "SAVE_AUTOMATICALLY_INTERVAL",
+			"type" : "integer",
+			"optional" : "false",
+            "engineTargetKey" : "files.autoSaveDelay"
+        }
+    ]
+}

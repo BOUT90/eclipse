@@ -1,0 +1,90 @@
+{
+	"settingsOverride": {
+		"go.inferGopath": true,
+		"editor.quickSuggestionsDelay": 200,
+		"editor.suggest.filterGraceful": false,
+		"editor.gotoLocation.multiple": "goto",
+		"javascript.referencesCodeLens.enabled": false,
+		"typescript.referencesCodeLens.enabled": false,
+		"typescript.implementationsCodeLens.enabled": false,
+		"javascript.implicitProjectConfig.checkJs": false,
+		"auto-close-tag.SublimeText3Mode": true,
+		"files.associations": {
+			".jsbeautifyrc": "jsonc",
+    		".prettierrc": "jsonc"
+		},
+		"htmlhint.options": {
+			"attr-value-double-quotes": true,
+			"attr-no-duplication": true,
+			"tag-pair": true,
+			"spec-char-escape": true,
+			"id-unique": false,
+			"src-not-empty": true,
+			"title-require": true
+		},
+		"workbench.settings.useSplitJSON": false,
+		"workbench.settings.editor": "json",
+		"formatters": [
+			{
+				"languageId": "css",
+				"extensionId": "HookyQR.beautify"
+			},
+			{
+				"languageId": "handlebars",
+				"extensionId": "vscode.html-language-features"
+			},
+			{
+				"languageId": "html",
+				"extensionId": "vscode.html-language-features"
+			},
+			{
+				"languageId": "javascript",
+				"extensionId": "vscode.typescript-language-features"
+			},
+			{
+				"languageId": "javascriptreact",
+				"extensionId": "vscode.typescript-language-features"
+			},
+			{
+				"languageId": "json",
+				"extensionId": "vscode.json-language-features"
+			},
+			{
+				"languageId": "jsonc",
+				"extensionId": "vscode.json-language-features"
+			},
+			{
+				"languageId": "less",
+				"extensionId": "HookyQR.beautify"
+			},
+			{
+				"languageId": "markdown",
+				"extensionId": "esbenp.prettier-vscode"
+			},
+			{
+				"languageId": "python",
+				"extensionId": "ms-python.python"
+			},
+			{
+				"languageId": "scss",
+				"extensionId": "HookyQR.beautify"
+			},
+			{
+				"languageId": "typescript",
+				"extensionId": "vscode.typescript-language-features"
+			},
+			{
+				"languageId": "typescriptreact",
+				"extensionId": "vscode.typescript-language-features"
+			},
+			{
+				"languageId": "vue",
+				"extensionId": "octref.vetur"
+			},
+			{
+				"languageId": "yaml",
+				"extensionId": "esbenp.prettier-vscode"
+			}
+		]
+	}
+}

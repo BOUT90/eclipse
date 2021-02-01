@@ -1,0 +1,1470 @@
+{
+	"mappings": [
+		{
+			"plugin": "org.eclipse.ui.editors",
+			"language": "Default colors",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Foreground color",
+					"key": "AbstractTextEditor.Color.Foreground",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"scope": [
+						"text"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "com.genuitec.eclipse.code.ui",
+			"language": "Other Languages",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Delimiters",
+					"key": "DELIMITER",
+					"light": "#494949 | null | false",
+					"dark": "#D8D8D8 | null | false | false | false | false",
+					"scope": [
+						"punctuation.definition"
+					]
+				},
+				{
+					"label": "Comments",
+					"key": "COMMENT",
+					"light": "#3f7f5f | null | false",
+					"dark": "#000000 | null | false | false | false | false",
+					"scope": [
+						"comment",
+						"punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Constants",
+					"key": "CONSTANT",
+					"light": "#6a3e3e | null | false",
+					"dark": "#EFC090 | null | false | false | false | false",
+					"scope": [
+						"constant",
+						"support.constant",
+						"punctuation.definition.constant"
+					]
+				},
+				{
+					"label": "Escape Characters",
+					"key": "ESCAPE_CHARS",
+					"light": "#808080 | null | false",
+					"dark": "#929292 | null | false | false | false | false",
+					"scope": [
+						"constant.character.escape"
+					]
+				},
+				{
+					"label": "Numbers",
+					"key": "NUMERIC",
+					"light": "#b5545f | null | false",
+					"dark": "#7FB347 | null | false | false | false | false",
+					"scope": [
+						"constant.numeric"
+					]
+				},
+				{
+					"label": "Values",
+					"key": "VALUE",
+					"light": "#2a00ff | null | false",
+					"dark": "#2a00ff | null | false | false | false | false",
+					"scope": [
+						"support.constant.property-value",
+						"meta.property-value"
+					]
+				},
+				{
+					"label": "Classes",
+					"key": "CLASS",
+					"light": "#005032 | null | false",
+					"dark": "#D25252 | null | false | false | false | false",
+					"scope": [
+						"support.class",
+						"entity.name.class",
+						"entity.name.type",
+						"entity.other.attribute-name.class"
+					]
+				},
+				{
+					"label": "Functions",
+					"key": "FUNCTION",
+					"light": "#6a3e3e | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"scope": [
+						"entity.name.function",
+						"meta.require",
+						"support.function.any-method"
+					]
+				},
+				{
+					"label": "Sections",
+					"key": "SECTION",
+					"light": "#3f7f5f | null | false",
+					"dark": "#CCDF32 | null | false | false | false | false",
+					"scope": [
+						"punctuation.section"
+					]
+				},
+				{
+					"label": "Tags",
+					"key": "TAG",
+					"light": "#3f7f7f | null | false",
+					"dark": "#66CDCD | null | false | false | false | false",
+					"scope": [
+						"entity.name.tag"
+					]
+				},
+				{
+					"label": "Selectors",
+					"key": "SELECTOR",
+					"light": "#3f7f7f | null | false",
+					"dark": "#7FB347 | null | false | false | false | false",
+					"scope": [
+						"meta.selector"
+					]
+				},
+				{
+					"label": "Attributes",
+					"key": "ATTRIBUTE",
+					"light": "#7f0055 | null | false",
+					"dark": "#D9E577 | null | false | false | false | false",
+					"scope": [
+						"entity.other.attribute-name"
+					]
+				},
+				{
+					"label": "Attribute IDs",
+					"key": "ATTRIBUTE_ID",
+					"light": "#7f0055 | null | false",
+					"dark": "#D9E577 | null | false | false | false | false",
+					"scope": [
+						"entity.other.attribute-name.id",
+						"punctuation.definition.entity"
+					]
+				},
+				{
+					"label": "Inherited Classes",
+					"key": "INHERITED_CLASS",
+					"light": "#005032 | null | false",
+					"dark": "#D25252 | null | false | false | false | false",
+					"scope": [
+						"entity.other.inherited-class"
+					]
+				},
+				{
+					"label": "Keywords",
+					"key": "KEYWORD",
+					"light": "#7f0055 | null | true",
+					"dark": "#8DCBE2 | null | true | false | false | false",
+					"scope": [
+						"keyword",
+						"keyword.control"
+					]
+				},
+				{
+					"label": "Operators",
+					"key": "OPERATOR",
+					"light": "#494949 | null | false",
+					"dark": "#D8D8D8 | null | false | false | false | false",
+					"scope": [
+						"keyword.operator"
+					]
+				},
+				{
+					"label": "Methods",
+					"key": "METHOD",
+					"light": "#6a3e3e | null | false",
+					"dark": "#6a3e3e | null | false | false | false | false",
+					"scope": [
+						"keyword.other.special-method"
+					]
+				},
+				{
+					"label": "Units",
+					"key": "UNIT",
+					"light": "#494949 | null | false",
+					"dark": "#7FB347 | null | false | false | false | false",
+					"scope": [
+						"keyword.other.unit"
+					]
+				},
+				{
+					"label": "Bracket Matching",
+					"key": "BRACKET_MATCHING",
+					"light": "#d4d4d4 | null | false",
+					"dark": "#6DA35B | null | false | false | false | false",
+					"scope": [
+						"meta.brace"
+					]
+				},
+				{
+					"label": "Separators",
+					"key": "SEPARATORS",
+					"light": "#d4d4d4 | null | false",
+					"dark": "#6DA35B | null | false | false | false | false",
+					"scope": [
+						"meta.separator"
+					]
+				},
+				{
+					"label": "Colors",
+					"key": "COLORS",
+					"light": "#6a3e3e | null | false",
+					"dark": "#6a3e3e | null | false | false | false | false",
+					"scope": [
+						"constant.other.color"
+					]
+				},
+				{
+					"label": "Embedded",
+					"key": "EMBEDED",
+					"light": "#919191 | null | false",
+					"dark": "#D8D8D8 | null | false | false | false | false",
+					"scope": [
+						"punctuation.section.embedded",
+						"variable.interpolation"
+					]
+				},
+				{
+					"label": "Invalid",
+					"key": "INVALID",
+					"light": "#929292 | null | false",
+					"dark": "#929292 | null | false | false | false | false",
+					"scope": [
+						"invalid.illegal"
+					]
+				},
+				{
+					"label": "Punctuation",
+					"key": "PUNCTUATION",
+					"light": "#494949 | null | false",
+					"dark": "#D8D8D8 | null | false | false | false | false",
+					"scope": [
+						"punctuation.definition",
+						"punctuation.definition.string",
+						"punctuation.definition.variable",
+						"punctuation.definition.string",
+						"punctuation.definition.parameters",
+						"punctuation.definition.string",
+						"punctuation.definition.array"
+					]
+				},
+				{
+					"label": "Storage",
+					"key": "STORAGE",
+					"light": "#808080 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"scope": [
+						"storage"
+					]
+				},
+				{
+					"label": "Strings",
+					"key": "STRING",
+					"light": "#1290c3 | null | false",
+					"dark": "#FFC600 | null | false | false | false | false",
+					"scope": [
+						"string"
+					]
+				},
+				{
+					"label": "Links",
+					"key": "LINK",
+					"light": "#006cff | null | false",
+					"dark": "#CCDF32 | null | false | false | false | false",
+					"scope": [
+						"string.other.link",
+						"meta.link"
+					]
+				},
+				{
+					"label": "Regular Expression",
+					"key": "REGEX",
+					"light": "#2a00ff | null | false",
+					"dark": "#D25252 | null | false | false | false | false",
+					"scope": [
+						"string.regexp"
+					]
+				},
+				{
+					"label": "Support Function",
+					"key": "SUPPORT",
+					"light": "#cc7832 | null | false",
+					"dark": "#BED6FF | null | false | false | false | false",
+					"scope": [
+						"support.function"
+					]
+				},
+				{
+					"label": "Variables",
+					"key": "VARIABLE",
+					"light": "#2a00ff | null | false",
+					"dark": "#BFA4A4 | null | false | false | false | false",
+					"scope": [
+						"variable",
+						"variable.parameter.function",
+						"support.type.vendored.property-name",
+						"support.type.property-name"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.wst.html.ui",
+			"language": "HTML",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Attribute Names",
+					"key": "tagAttributeName",
+					"light": "#7f007f | null | false",
+					"dark": "#a7ec21 | null | false | false | false | false",
+					"scope": [
+						"text.html entity.other.attribute-name"
+					]
+				},
+				{
+					"label": "Attribute Values",
+					"key": "tagAttributeValue",
+					"light": "#2a00ff | null | false | true",
+					"dark": "#17c694 | null | false | true | false | false",
+					"scope": [
+						"text.html string.quoted",
+						"text.html string.quoted punctuation.definition.string",
+						"text.html string.quoted punctuation.definition.string source.js",
+						"text.html string.quoted punctuation.definition.string source.css"
+					]
+				},
+				{
+					"label": "Comment Content",
+					"key": "commentText",
+					"light": "#3F5FBF | null | false",
+					"dark": "#626262 | null | false | false | false | false",
+					"scope": [
+						"text.html comment.block",
+						"text.html comment.block punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Comment Delimiters",
+					"key": "commentDelimiter",
+					"light": "#3F5FBF | null | false | false | false | false",
+					"dark": "#626262 | null | false | false | false | false",
+					"scope": [
+						"text.html punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Tag Names",
+					"key": "tagName",
+					"light": "#3f7f7f | null | false",
+					"dark": "#03a8d8 | null | true | false | false | false",
+					"scope": [
+						"text.html entity.name.tag"
+					]
+				},
+				{
+					"label": "Tag Delimiters",
+					"key": "tagBorder",
+					"light": "#008080 | null | false",
+					"dark": "#808080 | null | false | false | false | false",
+					"scope": [
+						"text.html punctuation.definition.tag",
+						"text.html punctuation.definition.tag source.js",
+						"text.html punctuation.definition.tag source.css"
+					]
+				},
+				{
+					"label": "Attribute Equal Signs",
+					"key": "tagAttributeEquals",
+					"light": "null | null | false",
+					"dark": "#52ca11 | null | false | false | false | false",
+					"scope": [
+						"text.html punctuation.separator.key-value"
+					]
+				},
+				{
+					"label": "Entity References",
+					"key": "entityReference",
+					"light": "#2A00FF | null | false",
+					"dark": "#DD2867 | null | false | false | false | false",
+					"scope": [
+						"text.html constant.character.entity.named",
+						"text.html punctuation.definition.entity"
+					]
+				},
+				{
+					"label": "DOCTYPE Name",
+					"key": "doctypeName",
+					"light": "#2a00ff | null | false",
+					"dark": "#fea88f | null | false | false | false | false",
+					"scope": [
+						"text.html meta.tag.metadata.doctype entity.other.attribute-name"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.wst.jsdt.ui",
+			"language": "Javascript & Typescript",
+			"configuration": {
+				"defaultFormat": "rgb"
+			},
+			"preferences": [
+				{
+					"label": "Control flow",
+					"key": "java_keyword_return",
+					"light": "127,0,85 | null | true | false | false | false",
+					"dark": "86,156,214 | null | true | false | false | false",
+					"scope": [
+						"source.js keyword.control",
+						"source.ts keyword.control"
+					]
+				},
+				{
+					"label": "Multi-line comment",
+					"key": "java_multi_line_comment",
+					"light": "63,127,95",
+					"dark": "96,139,78",
+					"scope": [
+						"source.js comment.block.documentation",
+						"source.js comment.block.documentation punctuation.definition.comment",
+						"source.js comment.block",
+						"source.js comment.block punctuation.definition.comment",
+						"source.ts comment.block.documentation",
+						"source.ts comment.block.documentation punctuation.definition.comment",
+						"source.ts comment.block",
+						"source.ts comment.block punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Keywords",
+					"key": "java_keyword",
+					"light": "127,0,85 | null | true | false | false | false",
+					"dark": "86,156,214 | null | true | false | false | false",
+					"scope": [
+						"source.js keyword",
+						"source.js storage.type",
+						"source.js storage.modifier",
+						"source.js constant.character",
+						"source.js constant.language.boolean",
+						"source.js variable.language.this",
+						"source.ts keyword",
+						"source.ts storage.type",
+						"source.ts storage.modifier",
+						"source.ts constant.character",
+						"source.ts constant.language.boolean",
+						"source.ts variable.language.this"
+					]
+				},
+				{
+					"label": "Single-line comment",
+					"key": "java_single_line_comment",
+					"light": "63,127,95",
+					"dark": "96,139,78",
+					"scope": [
+						"source.js comment.line",
+						"source.js comment.line punctuation.definition.comment",
+						"source.ts comment.line",
+						"source.ts comment.line punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Strings",
+					"key": "java_string",
+					"light": "42,0,255",
+					"dark": "206,145,120",
+					"scope": [
+						"source.js string",
+						"source.js string.quoted",
+						"source.js string.quoted punctuation.definition.string",
+						"source.ts string",
+						"source.ts string.quoted",
+						"source.ts string.quoted punctuation.definition.string"
+					]
+				},
+				{
+					"label": "Brackets",
+					"key": "java_bracket",
+					"light": "0,0,0",
+					"dark": "249,250,244",
+					"scope": [
+						"source.js punctuation.definition.block",
+						"source.js meta.brace.square",
+						"source.js punctuation.definition.parameters",
+						"source.js meta.brace",
+						"source.ts punctuation.definition.block",
+						"source.ts meta.brace",
+						"source.ts punctuation.definition.parameters"
+					]
+				},
+				{
+					"label": "Operators",
+					"key": "java_operator",
+					"light": "0,0,0",
+					"dark": "230,230,250",
+					"scope": [
+						"source.js keyword.operator",
+						"source.ts keyword.operator"
+					]
+				},
+				{
+					"label": "Local variables",
+					"key": "semanticHighlighting.localVariable.color",
+					"light": "0,0,192",
+					"enablement":"check",
+					"dark": "255,191,38",
+					"scope": [
+						"source.js variable.other",
+						"source.js meta.definition.variable",
+						"source.ts variable.other",
+						"source.ts meta.definition.variable"
+					]
+				},
+				{
+					"label": "Parameter variables",
+					"key": "semanticHighlighting.parameterVariable.color",
+					"light": "128,64,0",
+					"enablement":"check",
+					"dark": "121,171,255",
+					"devstyle": "parameterVariable",
+					"scope": [
+						"source.js variable.parameter",
+						"source.ts variable.parameter",
+						"source.js support.class",
+						"source.ts support.class"
+					]
+				},
+				{
+					"label": "Function declarations",
+					"key": "semanticHighlighting.methodDeclarationName.color",
+					"enablement":"check",
+					"light": "93,93,93 | null | true",
+					"dark": "121,171,255 | null | true",
+					"scope": [
+						"source.js meta.definition.function entity.name.function",
+						"source.ts meta.definition.function entity.name.function",
+						"source.js meta.definition.method entity.name.function",
+						"source.ts meta.definition.method entity.name.function"
+					]
+				},
+				{
+					"label": "Functions",
+					"key": "semanticHighlighting.method.color",
+					"enablement":"check",
+					"light": "60,60,60",
+					"dark": "255,255,255",
+					"devstyle": "method",
+					"scope": [
+						"source.js entity.name.function",
+						"source.ts entity.name.function"
+					]
+				},
+				{
+					"label": "Template literal",
+					"key": "javascript_template_literal",
+					"light": "32,74,135",
+					"dark": "121,171,255",
+					"devstyle": "typeParameter",
+					"scope": [
+						"source.js string.template",
+						"source.ts string.template"
+					]
+				},
+				{
+					"label": "Javadoc comment",
+					"key": "java_doc_default",
+					"light": "53,95,191",
+					"dark": "96,139,78",
+					"devstyle": "javadoc",
+					"scope": [
+						"source.js comment.block.documentation",
+						"source.ts comment.block.documentation"
+					]
+				},
+				{
+					"label": "Javadoc keywords",
+					"key": "java_doc_keyword",
+					"light": "127,159,191",
+					"dark": "65,94,53",
+					"devstyle": "javadocKeyword",
+					"scope": [
+						"source.js comment.block.documentation storage.type.class.jsdoc",
+						"source.ts comment.block.documentation storage.type.class.jsdoc",
+						"source.js comment.block.documentation storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
+						"source.ts comment.block.documentation storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
+					]
+				},
+				{
+					"label": "Object initializer",
+					"key": "semanticHighlighting.objectInitializer.color",
+					"light": "106,62,62 | null | false",
+					"dark": "166,194,255 | null | true",
+					"enablement": "check",
+					"devstyle": "staticField",
+					"scope": [
+						"source.js meta.object-literal.key",
+						"source.ts meta.object-literal.key",
+						"source.js meta.object-literal.key entity.name.function",
+						"source.ts meta.object-literal.key entity.name.function"
+					]
+				},
+				{
+					"label": "Others",
+					"key": "java_default",
+					"light": "0,0,0",
+					"dark": "255,255,255",
+					"scope": [
+						"source.js",
+						"source.ts"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.wst.css.ui",
+			"language": "CSS",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Attribute Name",
+					"key": "ATTRIBUTE_NAME",
+					"light": "#3f7f7f | null | false",
+					"dark": "#f7c517 | null | false | false | false | false",
+					"scope": [
+						"source.css entity.other.attribute-name"
+					]
+				},
+				{
+					"label": "Attribute Value",
+					"key": "ATTRIBUTE_VALUE",
+					"light": "#3f7f7f | null | false",
+					"dark": "#ff8080 | null | false | false | false | false",
+					"scope": [
+						"source.css string.unquoted.attribute-value",
+						"source.css string.quoted.attribute-value"
+					]
+				},
+				{
+					"label": "Attribute Selector Delimiter",
+					"key": "ATTRIBUTE_DELIM",
+					"light": "#3f7f7f | null | false",
+					"dark": "#f7c517 | null | false | false | false | false",
+					"scope": [
+						"source.css punctuation.definition.entity"
+					]
+				},
+				{
+					"label": "Attribute Selector Operator",
+					"key": "ATTRIBUTE_OPERATOR",
+					"light": "#3f7f7f | null | false",
+					"dark": "#f7c517 | null | false | false | false | false",
+					"scope": [
+						"source.css keyword.operator.pattern"
+					]
+				},
+				{
+					"label": "Class Selector",
+					"key": "CLASS",
+					"light": "#3f7f7f | null | false | true",
+					"dark": "#12e046 | null | false | false | false | false",
+					"scope": [
+						"source.css entity.other.attribute-name.class",
+						"source.css entity.other.attribute-name.class punctuation.definition.entity"
+					]
+				},
+				{
+					"label": "Combinator",
+					"key": "COMBINATOR",
+					"light": "#3f7f7f | null | false",
+					"dark": "#A7EC21 | null | null | null | null | null",
+					"scope": [
+						"source.css keyword.operator.combinator"
+					]
+				},
+				{
+					"label": "Curly Brace",
+					"key": "CURLY_BRACE",
+					"light": "#000000 | null | false",
+					"dark": "#F9FAF4 | null | null | null | null | null",
+					"scope": [
+						"source.css punctuation.section.property-list"
+					]
+				},
+				{
+					"label": "Type Selector",
+					"key": "SELECTOR",
+					"light": "#3f7f7f | null | true",
+					"dark": "#65f228 | null | false | false | false | false",
+					"scope": [
+						"source.css entity.name.tag"
+					]
+				},
+				{
+					"label": "At-Rule",
+					"key": "ATMARK_RULE",
+					"light": "#3f7f7f | null | false",
+					"dark": "#A7EC21 | null | null | null | null | null",
+					"scope": [
+						"source.css keyword.control.at-rule"
+					]
+				},
+				{
+					"label": "URI",
+					"key": "URI",
+					"light": "#2a00e1 | null | false | true",
+					"dark": "#17C6A3 | null | null | true | null | null",
+					"scope": [
+						"source.css support.function.url"
+					]
+				},
+				{
+					"label": "Comment",
+					"key": "COMMENT",
+					"light": "#3f5fbf | null | false",
+					"dark": "#626262 | null | null | null | null | null",
+					"scope": [
+						"source.css comment.block",
+						"source.css punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Property Name",
+					"key": "PROPERTY_NAME",
+					"light": "#7f007f | null | false",
+					"dark": "#0699f0 | null | false | false | false | false",
+					"scope": [
+						"source.css support.type.property-name"
+					]
+				},
+				{
+					"label": "Property Value",
+					"key": "PROPERTY_VALUE",
+					"light": "#2a00e1 | null | false | true",
+					"dark": "#17C6A3 | null | null | true | null | null",
+					"scope": [
+						"source.css meta.property-value constant.other.color.rgb-value",
+						"source.css meta.property-value",
+						"source.css meta.property-value variable.parameter.url",
+						"source.css meta.property-value support.constant.property-value",
+						"source.css meta.property-value punctuation.definition.constant",
+						"source.css meta.property-value punctuation.definition",
+						"source.css meta.property-value string.quoted",
+						"source.css meta.property-value punctuation.definition.string",
+						"source.css meta.property-value punctuation.section"
+					]
+				},
+				{
+					"label": "Id Selector",
+					"key": "ID",
+					"light": "#3f7f7f | null | false | true",
+					"dark": "#A7EC21 | null | null | null | null | null",
+					"scope": [
+						"source.css entity.other.attribute-name.id",
+						"source.css entity.other.attribute-name.id punctuation.definition.entity"
+					]
+				},
+				{
+					"label": "Semicolon",
+					"key": "SEMI_COLON",
+					"light": "#000000 | null | false",
+					"dark": "#D9E8F7 | null | null | null | null | null",
+					"scope": [
+						"source.css punctuation.terminator.rule"
+					]
+				},
+				{
+					"label": "Keywords and other Constants",
+					"key": "KEYWORDS_AND_CONSTANTS",
+					"light": "#b5545f | null | false",
+					"dark": "#7FB347 | null | false | false | false | false",
+					"scope": [
+						"source.css constant",
+						"source.css support.constant",
+						"source.css punctuation.definition.constant",
+						"source.css keyword",
+						"source.css keyword.other"
+					]
+				},
+				{
+					"label": "Media name",
+					"key": "MEDIA",
+					"light": "#2A00E1 | null | false",
+					"dark": "#DD2867 | null | false | false | false | false",
+					"scope": [
+						"source.css meta.at-rule.media.header"
+					]
+				},
+				{
+					"label": "Property delimiter",
+					"key": "COLON",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"scope": [
+						"source.css meta.property-list punctuation.separator.key-value"
+					]
+				},
+				{
+					"label": "Strings",
+					"key": "STRING",
+					"light": "#2A00E1 | null | false",
+					"dark": "#17C6A3 | null | false | false | false | false",
+					"scope": [
+						"source.css string.quoted"
+					]
+				},
+				{
+					"label": "Universal selector",
+					"key": "UNIVERSAL",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"scope": [
+						"source.css meta.selector entity.name.tag.wildcard"
+					]
+				},
+				{
+					"label": "Default",
+					"key": "NORMAL",
+					"light": "#000000",
+					"dark": "#D9E8F7",
+					"scope": [
+						"source.css"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.wst.json.ui",
+			"language": "JSON",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Comma",
+					"key": "COMMA",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"devstyle": "bracket",
+					"scope": [
+						"source.json punctuation.separator.array",
+						"source.json punctuation.separator.dictionary.pair"
+					]
+				},
+				{
+					"label": "Curly",
+					"key": "CURLY_BRACE",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"devstyle": "bracket",
+					"scope": [
+						"source.json punctuation.definition.dictionary",
+						"source.json punctuation.definition.array"
+					]
+				},
+				{
+					"label": "Constant values",
+					"key": "VALUE_BOOLEAN",
+					"light": "#ff8c00 | null | false",
+					"dark": "#03A8D8 | null | false | false | false | false",
+					"devstyle": "constant",
+					"scope": [
+						"source.json constant.language"
+					]
+				},
+				{
+					"label": "String value",
+					"key": "VALUE_STRING",
+					"light": "#2a00ff | null | false | true",
+					"dark": "#FFC600 | null | true | true | false | false",
+					"devstyle": "string",
+					"scope": [
+						"source.json string.quoted",
+						"source.json punctuation.definition.string"
+					]
+				},
+				{
+					"label": "Number value",
+					"key": "VALUE_NUMBER",
+					"light": "#ff0000 | null | false",
+					"dark": "#D25242 | null | false | false | false | false",
+					"devstyle": "number",
+					"scope": [
+						"source.json constant.numeric"
+					]
+				},
+				{
+					"label": "Colon",
+					"key": "COLON",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"devstyle": "bracket",
+					"scope": [
+						"source.json punctuation.separator.dictionary.key-value"
+					]
+				},
+				{
+					"label": "Object key",
+					"key": "OBJECT_KEY",
+					"light": "#7f007f | null | false",
+					"dark": "#BED6FF | null | false | false | false | false",
+					"devstyle": "keyword",
+					"scope": [
+						"source.json support.type.property-name"
+					]
+				},
+				{
+					"label": "Comment",
+					"key": "COMMENT",
+					"light": "#3F5FBF | null | false",
+					"dark": "#CE4C9C | null | false | false | false | false",
+					"devstyle": "singleLineComment",
+					"scope": [
+						"source.json comment",
+						"source.json punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Null value",
+					"key": "VALUE_NULL",
+					"light": "#969696 | null | false",
+					"dark": "#969696 | null | false | false | false | false",
+					"devstyle": "staticField",
+					"scope": [
+						"source.json comment",
+						"source.json punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Normal",
+					"key": "NORMAL",
+					"light": "#000000 | null | false",
+					"dark": "#FFFFFF | null | false | false | false | false",
+					"devstyle": "foreground",
+					"scope": [
+						"source.json"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.wst.xml.ui",
+			"language": "XML",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Tag Delimiters",
+					"key": "tagBorder",
+					"light": "#008080 | null | false",
+					"dark": "#808080 | null | false | false | false | false",
+					"scope": [
+						"text.xml punctuation.definition.tag"
+					]
+				},
+				{
+					"label": "CDATA Content",
+					"key": "cdataText",
+					"light": "#000000 | null | false",
+					"dark": "#93bde8 | null | false | false | false | false",
+					"scope": [
+						"text.xml string.unquoted.cdata"
+					]
+				},
+				{
+					"label": "Tag Names",
+					"key": "tagName",
+					"light": "#3F7F7F | null | false",
+					"dark": "#03a8d8 | null | true | false | false | false",
+					"scope": [
+						"text.xml entity.name.tag"
+					]
+				},
+				{
+					"label": "Comment Content",
+					"key": "commentText",
+					"light": "#3f5fbf | null | false",
+					"dark": "#626262 | null | false | false | false | false",
+					"scope": [
+						"text.xml comment.block",
+						"text.xml comment.block punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "DOCTYPE Name",
+					"key": "doctypeName",
+					"light": "#008080 | null | false",
+					"dark": "#A7EC21 | null | false | false | false | false",
+					"scope": [
+						"text.xml variable.language.documentroot"
+					]
+				},
+				{
+					"label": "DOCTYPE Reference",
+					"key": "doctypeExternalPubref",
+					"light": "#008080 | null | false",
+					"dark": "#f0a253 | null | false | false | false | false",
+					"scope": [
+						"text.xml meta.tag.sgml.doctype"
+					]
+				},
+				{
+					"label": "Attribute Values",
+					"key": "tagAttributeValue",
+					"light": "#2a00ff | null | false | true",
+					"dark": "#17c694 | null | false | true | false | false",
+					"scope": [
+						"text.xml meta.tag string.quoted",
+						"text.xml meta.tag punctuation.definition.string"
+					]
+				},
+				{
+					"label": "Attribute Equal Signs",
+					"key": "tagAttributeEquals",
+					"light": "null | null | false",
+					"dark": "#52ca11 | null | false | false | false | false",
+					"scope": [
+						"text.xml meta.tag"
+					]
+				},
+				{
+					"label": "Entity References",
+					"key": "entityReference",
+					"light": "#2a00ff | null | false",
+					"dark": "#DD2867 | null | false | false | false | false",
+					"scope": [
+						"text.xml constant.character.entity",
+						"text.xml punctuation.definition.constant"
+					]
+				},
+				{
+					"label": "Comment Delimiters",
+					"key": "commentBorder",
+					"light": "#3f5fbf | null | false",
+					"dark": "#626262 | null | false | false | false | false",
+					"scope": [
+						"text.xml punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Attribute Names",
+					"key": "tagAttributeName",
+					"light": "#7f007f | null | false",
+					"dark": "#a7ec21 | null | false | false | false | false",
+					"scope": [
+						"text.xml meta.tag entity.other.attribute-name"
+					]
+				},
+				{
+					"label": "CDATA Delimiters",
+					"key": "cdataBorder",
+					"light": "#008080 | null | false",
+					"dark": "#A7EC21 | null | false | false | false | false",
+					"scope": [
+						"text.xml punctuation.definition.string"
+					]
+				},
+				{
+					"label": "Content",
+					"key": "xmlContent",
+					"light": "null | null | false",
+					"dark": "#D9E8F7 | null | false | false | false | false",
+					"scope": [
+						"text.xml"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "org.eclipse.php.ui",
+			"language": "PHP",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "PHPDoc",
+					"key": "editorColorPhpdoc",
+					"light": "#7f9fbf | null | true",
+					"dark": "#9a8c7c | null | true | false | false | false",
+					"scope": [
+						"text.html.php keyword.other.phpdoc"
+					]
+				},
+				{
+					"label": "Fields and Variables",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.FieldHighlighting.color",
+					"light": "#0000c0",
+					"dark": "#66E1F8",
+					"scope": [
+						"text.html.php variable.other",
+						"text.html.php punctuation.definition.variable"
+					]
+				},
+				{
+					"label": "Classes",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.ClassHighlighting.color",
+					"light": "#005032",
+					"dark": "#1290C3",
+					"scope": [
+						"text.html.php entity.name.type"
+					]
+				},
+				{
+					"label": "PHP tags",
+					"key": "editorColorBoundarymaker",
+					"light": "#ff0000",
+					"dark": "#e79c92 | null | true | true | false | false",
+					"scope": [
+						"text.html.php punctuation.section.embedded"
+					]
+				},
+				{
+					"label": "Keyword",
+					"key": "editorColorKeyword",
+					"light": "#7f0055 | null | true",
+					"dark": "#DD2867 | null | true | false | false | false",
+					"scope": [
+						"text.html.php storage.modifier",
+						"text.html.php keyword",
+						"text.html.php storage.type",
+						"text.html.php keyword.control"
+					]
+				},
+				{
+					"label": "Single-line comment",
+					"key": "editorColorLineComment",
+					"light": "#557f5f",
+					"dark": "#626262 | null | null | null | null | null",
+					"scope": [
+						"text.html.php comment.line",
+						"text.html.php comment.line punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "Heredoc",
+					"key": "editorColorHeredoc",
+					"light": "#008282",
+					"dark": "#626262 | null | null | true | null | null",
+					"scope": [
+						"text.html.php keyword.operator.heredoc",
+						"text.html.php string.unquoted.heredoc"
+					]
+				},
+				{
+					"label": "Multi-line comment",
+					"key": "editorColorComment",
+					"light": "#557f5f",
+					"dark": "#626262",
+					"scope": [
+						"text.html.php comment.block",
+						"text.html.php comment.block punctuation.definition.comment"
+					]
+				},
+				{
+					"label": "PHPDoc comment",
+					"key": "editorColorPHPDocComment",
+					"light": "#3f55bf",
+					"dark": "#626262 | null | false | false | false | false",
+					"scope": [
+						"text.html.php comment.block.documentation.phpdoc"
+					]
+				},
+				{
+					"label": "Constants",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.ConstantHighlighting.color",
+					"light": "#0000c0",
+					"dark": "#8DDAF8",
+					"scope": [
+						"text.html.php support.constant.core"
+					]
+				},
+				{
+					"label": "Methods and Functions",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.MethodHighlighting.color",
+					"light": "#000000",
+					"dark": "#1eb540",
+					"scope": [
+						"text.html.php entity.name.function",
+						"text.html.php meta.function-call",
+						"text.html.php support.function"
+					]
+				},
+				{
+					"label": "Superglobal variables",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.SuperGlobalHighlighting.color",
+					"light": "#7f0055",
+					"dark": "#FFBF26",
+					"scope": [
+						"text.html.php variable.other.global.safer"
+					]
+				},
+				{
+					"label": "String",
+					"key": "editorColorString",
+					"light": "#0000c0",
+					"dark": "#17C6A3 | null | null | true | null | null",
+					"scope": [
+						"text.html.php string.quoted.single.php"
+					]
+				},
+				{
+					"label": "Number",
+					"key": "editorColorNumber",
+					"light": "#000000",
+					"dark": "#6897BB | null | null | null | null | null",
+					"scope": [
+						"text.html.php constant.numeric.decimal"
+					]
+				},
+				{
+					"label": "Normal",
+					"key": "codeStyleNormal",
+					"light": "#000000",
+					"dark": "#FFFFFF",
+					"scope": [
+						"text.html.php"
+					]
+				},
+				{
+					"label": "Parameter variables",
+					"key": "semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.ParameterVariableHighlighting.color",
+					"light": "#000000",
+					"dark": "#FFFFFF",
+					"scope": [
+						"text.html.php meta.function.parameters variable"
+					]
+				}
+			]
+		},
+		{
+			"plugin": "com.genuitec.eclipse.code.ui",
+			"language": "Markdown",
+			"configuration": {
+				"defaultFormat": "webtools-standard"
+			},
+			"preferences": [
+				{
+					"label": "Headings",
+					"key": "MARKDOWN_HEADINGS",
+					"light": "#0000C0",
+					"dark": "#75B0FF",
+					"scope": [
+						"markup.heading",
+						"markup.heading.setext",
+						"punctuation.definition.heading",
+						"entity.name.section.markdown"
+					]
+				},
+				{
+					"label": "Inline raw",
+					"key": "MARKDOWN_INLINE",
+					"light": "#4B4B72 | null | false",
+					"dark": "#4595FF | null | false | false | false | false",
+					"scope": [
+						"markup.inline.raw"
+					]
+				},
+				{
+					"label": "Lists",
+					"key": "MARKDOWN_LISTS",
+					"light": "#33664D | null | false",
+					"dark": "#7FB347 | null | false | false | false | false",
+					"scope": [
+						"markup.list"
+					]
+				},
+				{
+					"label": "Quotes",
+					"key": "MARKDOWN_QUOTES",
+					"light": "#6a3e3e | null | false",
+					"dark": "#EFC090 | null | false | false | false | false",
+					"scope": [
+						"markup.quote"
+					]
+				}
+			]
+		},
+		        {
+            "plugin": "org.python.pydev",
+            "language": "Python",
+            "configuration": {
+                "defaultFormat": "rgbs"
+            },
+            "preferences": [
+                {
+                    "label": "Code",
+                    "key": "CODE_COLOR",
+                    "light": "0,0,0",
+                    "dark": "217,232,247",
+                    "scope": [
+						"source.python",
+						"source.python variable.parameter",
+						"source.python variable.parameter.function",
+						"source.python meta.function.parameters",
+						"source.python meta.function",
+						"source.python support.function",
+						"source.python meta.function-call.python",
+						"source.python constant.other.caps",
+						"source.python punctuation.separator.period",
+						"source.python entity.other.inherited-class",
+						"source.python meta.class"
+                    ]
+                },
+                {
+                    "label": "Decorators",
+                    "key": "DECORATOR_COLOR",
+                    "light": "125,125,125 | null | false | true",
+                    "dark": "255,255,255 | null | false | true",
+                    "scope": [
+						"source.python meta.function.decorator",
+						"source.python entity.name.function.decorator",
+						"source.python entity.name.function.decorator punctuation.definition.decorator"
+                    ]
+                },
+                {
+                    "label": "Numbers",
+                    "key": "NUMBER_COLOR",
+                    "light": "128,0,0",
+                    "dark": "104,151,187",
+                    "scope": [
+                        "source.python constant.numeric"
+                    ]
+                },
+                {
+                    "label": "Keywords",
+                    "key": "KEYWORD_COLOR",
+                    "light": "0,0,255",
+                    "dark": "221,40,103",
+                    "scope": [
+                        "source.python keyword",
+						"source.python storage.type",
+						"source.python keyword.control",
+						"source.python constant.language",
+						"source.python keyword.operator.logical"
+                    ]
+                },
+                {
+                    "label": "Self",
+                    "key": "SELF_COLOR",
+                    "light": "0,0,0 | null | false | true",
+                    "dark": "221,40,103 | null | false | true",
+                    "scope": [
+						"source.python variable.parameter.function.language.special.self",
+						"source.python variable.language.special.self"
+                    ]
+                },
+                {
+                    "label": "Bytes",
+                    "key": "STRING_COLOR",
+                    "light": "201,128,43 | null | false | true",
+                    "dark": "141,218,248 | null | false | true",
+                    "scope": [
+						"source.python string.quoted.binary",
+						"source.python string.quoted.binary storage.type",
+						"source.python string.quoted.binary punctuation.definition.string",
+						"source.python string.quoted.binary constant.character.escape"
+                   ]
+                },
+                {
+                    "label": "Unicode",
+                    "key": "UNICODE_COLOR",
+                    "light": "0,170,0 | null | false | true",
+                    "dark": "23,198,163 | null | false | true",
+                    "scope": [
+						"source.python string.quoted.multi",
+						"source.python string.quoted.multi storage.type",
+						"source.python string.quoted.multi punctuation.definition.string",
+						"source.python string.quoted.multi punctuation.definition.string constant.character.escape",
+						"source.python string.quoted.single",
+						"source.python string.quoted.single storage.type",
+						"source.python string.quoted.single punctuation.definition.string",
+						"source.python string.quoted.single constant.character.escape"
+					]
+                },
+                {
+                    "label": "Docstring markup",
+                    "key": "DOCSTRING_MARKUP_COLOR",
+                    "light": "0,170,0 | null | false | true",
+                    "dark": "30,120,155 | null | true | false",
+                    "scope": [
+						"source.python string.quoted.docstring",
+						"source.python string.quoted.docstring punctuation.definition.string"
+					]
+                },
+                {
+                    "label": "Comments",
+                    "key": "COMMENT_COLOR",
+                    "light": "192,192,192",
+                    "dark": "98,98,98",
+                    "scope": [
+						"source.python comment",
+						"source.python punctuation.definition.comment"
+                    ]
+                },
+                {
+                    "label": "Backquotes",
+                    "key": "BACKQUOTES_COLOR",
+                    "light": "0,0,0 | null | true",
+                    "dark": "255,255,255 | null | true",
+                    "scope": [
+                        "source.python invalid.deprecated.backtick"
+                    ]
+                },
+                {
+                    "label": "Class Name",
+                    "key": "CLASS_NAME_COLOR",
+                    "light": "0,0,0 | null | true",
+                    "dark": "18,144,195 | null | true",
+                    "scope": [
+                        "source.python entity.name.type.class"
+                    ]
+                },
+                {
+                    "label": "Function Name",
+                    "key": "FUNC_NAME_COLOR",
+                    "light": "0,0,0 | null | true",
+                    "dark": "167,236,33 | null | true",
+                    "scope": [
+						"source.python entity.name.function",
+						"source.python support.function.magic"
+                    ]
+                },
+                {
+                    "label": "(), [], {}",
+                    "key": "PARENS_COLOR",
+                    "light": "0,0,0",
+                    "dark": "249,250,244",
+                    "scope": [
+                        "source.python punctuation.definition"
+                    ]
+                },
+                {
+                    "label": "Operators (+,-,*,...)",
+                    "key": "OPERATORS_COLOR",
+                    "light": "0,0,0",
+                    "dark": "230,230,250",
+                    "scope": [
+						"source.python keyword.operator",
+						"source.python punctuation.separator"
+                    ]
+                }
+            ]
+        }
+	]
+}

@@ -1,0 +1,283 @@
+{
+	"mappings": [
+		{
+			"nodeid": "vscode.typescript-language-features/Javascript Format",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.format",
+			"folderTarget": "com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format",
+			"label": "Javascript"
+		},
+		{
+			"nodeid": "vscode.typescript-language-features/Typescript Format",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.format",
+			"folderTarget": "com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format",
+			"label": "Typescript"
+		},
+		{
+			"nodeid": "html/Format",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.format",
+			"folderTarget": "com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format",
+			"label": "HTML"
+		},
+		{
+			"nodeid": "octref.vetur",
+			"label": "Vue"
+		},
+		{
+			"nodeid": "editor",
+			"label": "Editors"
+		},
+		{
+			"nodeid": "editor/suggestions",
+			"label": "Content Assist"
+		},
+		{
+			"nodeid": "octref.vetur/Format",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.format",
+			"folderTarget": "com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format",
+			"label": "Vue"
+		},
+		{
+			"nodeid": "scss/Lint",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.validation",
+			"folderTarget": "com.genuitec.eclipse.code.ui.project.builder",
+			"label": "SCSS"
+		},
+		{
+			"nodeid": "css/Lint",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.validation",
+			"folderTarget": "com.genuitec.eclipse.code.ui.project.builder",
+			"label": "CSS"
+		},
+		{
+			"nodeid": "less/Lint",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.validation",
+			"folderTarget": "com.genuitec.eclipse.code.ui.project.builder",
+			"label": "LESS"
+		}
+	],
+	"contributors": [
+		{
+			"id": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.format",
+			"label": "Formatter",
+			"content": "Formatting in CodeMix is most often delegated to installed extensions. These settings pages cover the majority of common formatting you may do in CodeMix, however other settings may be found under `#CodeMix > Extensions#`(extensions) areas as well. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for."
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format",
+			"label": "Formatter",
+			"content": "Formatting in CodeMix is most often delegated to installed extensions. These settings pages cover the majority of common formatting you may do in CodeMix, however other settings may be found under `#CodeMix > Extensions#`(com.genuitec.eclipse.code.ui.properties.base/extensions) areas as well. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for."
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.validation",
+			"label": "Linting and Validation",
+			"content": "Validation in CodeMix is delegated to extensions installed automatically. Certain settings such as those for CSS can be configured in settings pages, while other settings like those for languages with standard Linting configuration can be done in files in the project, such as is the case with TypeScriprt and the tslint.json configuration file. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for."
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.preferences.base/editor/com.genuitec.eclipse.code.ui.preferences.saveactions",
+			"label": "Save Actions",
+			"settings": [
+				"files.insertFinalNewline",
+				"files.trimFinalNewlines",
+				"files.trimTrailingWhitespace",
+				"editor.formatOnSave",
+				"eslint.autoFixOnSave",
+				"tslint.autoFixOnSave"
+			]
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.properties.base/editor/com.genuitec.eclipse.code.ui.properties.saveactions",
+			"label": "Save Actions",
+			"settings": [
+				"files.insertFinalNewline",
+				"files.trimFinalNewlines",
+				"files.trimTrailingWhitespace",
+				"editor.formatOnSave",
+				"eslint.autoFixOnSave",
+				"tslint.autoFixOnSave"
+			]
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.preferences.base/editor/com.genuitec.eclipse.code.ui.preferences.codelens",
+			"label": "Code Mining",
+			"content": "Code Mining annotations provide additional insight on how your code is being used.",
+			"settings": [
+				".*CodeLens.enabled"
+			]
+		},
+		{
+			"id": "com.genuitec.eclipse.code.ui.preferences.base/editor/com.genuitec.eclipse.code.ui.preferences.editor.folding",
+			"label": "Folding",
+			"settings": [
+				"editor.folding"
+			]
+		}
+	],
+	"contents": [
+		{
+			"nodeid": "editor",
+			"content": "Editors Settings lets you change how CodeMix behaves while coding including enabling *Content Assist*, *Code Mining*, *Parameter Hints*, *Coloring*, and more.\n\nBe sure to explore the *many* powerful features including formatting on save, control over what suggestions are made as you type and more!\n\nYou can configure `#editor.tabSize#` and `#editor.insertSpaces#` under the common Text Editors preference page.",
+			"scope": "workspace"
+		},
+		{
+			"nodeid": "editor",
+			"content": "Editors Settings lets you change how CodeMix behaves while coding including enabling *Content Assist* and more.\n\nBe sure to explore the *many* powerful features including formatting on save, control over what suggestions are made as you type and more!",
+			"scope": "project"
+		},
+		{
+			"nodeid": "extensions",
+			"content": "Extensions Settings let you control how added languages, debuggers, and other tools installed into your CodeMix installation impact your development workflow. These settings pages cover the majority of settings provided by the installed extensions.\n\nFormatting related settings may be found under `#CodeMix > Formatter#`(com.genuitec.eclipse.code.ui.preferences.format) areas as well. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for.",
+			"scope": "workspace"
+		},
+		{
+			"nodeid": "extensions",
+			"content": "Extensions Settings let you control how added languages, debuggers, and other tools installed into your CodeMix installation impact your development workflow. These settings pages cover the majority of settings provided by the installed extensions.\n\nFormatting related settings may be found under `#CodeMix > Formatter#`(com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format) areas as well. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for.",
+			"scope": "project"
+		},
+		{
+			"nodeid": "vscode.typescript-language-features",
+			"content": "TypeScript and JavaScript settings are represented in groups so that you can navigate them easily. Formatting related settings may be found under `#CodeMix > Formatter#`(com.genuitec.eclipse.code.ui.preferences.format). Validation related settings are configured in the tslint.json configuration files inside projects. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for.",
+			"scope": "workspace"
+		},
+		{
+			"nodeid": "vscode.typescript-language-features",
+			"content": "TypeScript and JavaScript settings are represented in groups so that you can navigate them easily. Formatting related settings may be found under `#CodeMix > Formatter#`(com.genuitec.eclipse.code.ui.properties.base/com.genuitec.eclipse.code.ui.properties.format). Validation related settings are configured in the tslint.json configuration files inside projects. Using the filter at the top of the preference dialog will facilitate finding settings that you are looking for.",
+			"scope": "project"
+		},
+		{
+			"nodeid": "html/Format",
+			"content": "[Learn more](https://www.genuitec.com/go/codemix-formatting?language=html) on how formatting works for HTML.",
+			"scope": "workspace"
+		},
+		{
+			"nodeid": "html/Format",
+			"content": "[Learn more](https://www.genuitec.com/go/codemix-formatting?language=html) on how formatting works for HTML.",
+			"scope": "project"
+		},
+		{
+			"nodeid": "vscode.typescript-language-features/Javascript Format",
+			"content": "[Learn more](https://www.genuitec.com/go/codemix-formatting?language=js) on how formatting works for JS.",
+			"scope": "workspace"
+		},
+		{
+			"nodeid": "vscode.typescript-language-features/Javascript Format",
+			"content": "[Learn more](https://www.genuitec.com/go/codemix-formatting?language=js) on how formatting works for JS.",
+			"scope": "project"
+		},
+		{
+			"nodeid": "HookyQR.beautify",
+			"content": "The Beautify extension enables advanced formatting configuration. It works by reading formatting settings from .jsbeautifyrc files present in projects that also have corresponding file types configured to use the Beautify formatter. The extension will check the open file's path tree to detect code styling, and if no .jsbeautifyrc file is found, will use defaults from the formatter Preference pages. Once a .jsbeautifyrc file is present, the Preference pages will not be used.",
+			"scope": "project"
+		},
+		{
+			"nodeid": "HookyQR.beautify",
+			"content": "The Beautify extension enables advanced formatting configuration. It works by reading formatting settings from .jsbeautifyrc files present in projects that also have corresponding file types configured to use the Beautify formatter. The extension will check the open file's path tree to detect code styling, and if no .jsbeautifyrc file is found, will use defaults from the formatter Preference pages. Once a .jsbeautifyrc file is present, the Preference pages will not be used.",
+			"scope": "workspace"
+		}
+
+	],
+	"nodeFilters": [
+        "commonlyUsed",
+		"editor/files"
+	],
+	"relocations": [
+		{
+			"nodeid": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.layout",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/editor"
+		},
+		{
+			"nodeid": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.languages.editors",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/editor"
+		},
+		{
+			"nodeid": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.coloring",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/editor"
+		},
+		{
+			"nodeid": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.languages.project.validator",
+			"workspaceTarget": "com.genuitec.eclipse.code.ui.preferences.base/com.genuitec.eclipse.code.ui.preferences.validation"
+		}
+	],
+	"settingRelocations": [
+		{
+			"Important note, we are filtering the editor/filter node, ordering here is important": "comment",
+			"settingId": "editor.parameterHints.enabled",
+			"sourceNode": "editor",
+			"targetNode": "editor/suggestions"
+		},
+		{
+			"settingId": "codemix.editor.parameterHint",
+			"sourceNode": "editor",
+			"targetNode": "editor/suggestions"
+		},
+		{
+			"settingId": "editor.folding",
+			"sourceNode": "editor",
+			"removal": "true"
+        },
+        {
+            "settingId" : "editor.formatOnSave",
+            "sourceNode": "editor/format",
+            "targetNode": "editor"
+        },
+        {
+            "settingId": "editor.formatOnSave",
+			"sourceNode": "editor",
+			"removal": "true"
+        },
+        {
+            "settingId" : "files.insertFinalNewline",
+            "sourceNode": "editor/files",
+            "targetNode": "editor"
+        },
+        {
+            "settingId": "files.insertFinalNewline",
+			"sourceNode": "editor",
+			"removal": "true"
+        },
+        {
+            "settingId" : "files.trimFinalNewlines",
+            "sourceNode": "editor/files",
+            "targetNode": "editor"
+        },
+        {
+            "settingId": "files.trimFinalNewlines",
+			"sourceNode": "editor",
+			"removal": "true"
+        },
+        {
+            "settingId" : "files.trimTrailingWhitespace",
+            "sourceNode": "editor/files",
+            "targetNode": "editor"
+        },
+        {
+            "settingId": "files.trimTrailingWhitespace",
+			"sourceNode": "editor",
+			"removal": "true"
+        }
+	],
+	"categoryMapping": [
+		{
+			"sourceCategory": "Format › Default Formatter",
+			"targetCategory": "Format"
+		}
+	],
+	"groupSettings": [
+		{
+			"nodeid": "octref.vetur/Format",
+			"groups": [
+				{
+					"title": "Default Formatter",
+					"settings": [
+						"vetur.format.defaultFormatter.css", 
+						"vetur.format.defaultFormatter.html",
+						"vetur.format.defaultFormatter.js",
+						"vetur.format.defaultFormatter.less",
+						"vetur.format.defaultFormatter.postcss",
+						"vetur.format.defaultFormatter.scss",
+						"vetur.format.defaultFormatter.stylus",
+						"vetur.format.defaultFormatter.ts"
+					]
+				}
+			]
+		}
+	]
+}

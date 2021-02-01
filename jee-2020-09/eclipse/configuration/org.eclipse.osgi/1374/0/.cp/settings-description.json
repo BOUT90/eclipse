@@ -1,0 +1,416 @@
+{
+	"settings": [
+		{
+			"key": "php.executablePath",
+			"programmatic-default": "php",
+			"validation-args":"-v",
+			"same-as": [
+				"php.validate.executablePath"
+			],
+			"type": "executable",
+			"hint": "path of the PHP executable on your system"
+		},
+		{
+			"key": "php.validate.executablePath",
+			"programmatic-default": "php",
+			"validation-args":"-v",
+			"type": "executable",
+			"hint": "path of the PHP executable on your system"
+		},
+		{
+			"key": "php.validate.enable",
+			"type": "boolean",
+			"hint": "true (default) if you want to enable PHP validation"
+		},
+		{
+			"key": "php.validate.run",
+			"type": "string",
+			"hint": "onSave (default) if you want validation to run only when  you save a file, onType if you want validation to run as you type"
+		},
+		{
+			"key": "php.suggest.basic",
+			"type": "boolean",
+			"hint": "false to enable advanced IntelliSense & Validation"
+		},
+		{
+			"key": "php.memoryLimit",
+			"type": "string"
+		},
+		{
+			"key": "python.condaPath",
+            "type": "executable",
+            "validation-args":"--version"
+		},
+		{
+			"key": "python.pipenvPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "pipenv"
+		},
+		{
+			"key": "python.linting.banditPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "bandit"
+		},
+		{
+			"key": "python.linting.flake8Path",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "flake8"
+		},
+		{
+			"key": "python.linting.mypyPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "mypy"
+		},
+		{
+			"key": "python.linting.pep8Path",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "pep8"
+		},
+		{
+			"key": "python.linting.prospectorPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "prospector"
+		},
+		{
+			"key": "python.linting.pydocstylePath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "pydocstyle"
+		},
+		{
+			"key": "python.linting.pylamaPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "pylama"
+		},
+		{
+			"key": "python.pythonPath",
+			"type": "executable",
+			"programmatic-default": "python",
+			"validation-args":"--version",
+			"hint": "Path to python executable"
+		},
+		{
+			"key": "python.linting.pylintEnabled",
+			"type": "boolean"
+		},
+		{
+			"key": "python.formatting.provider",
+			"type": "string"
+		},
+		{
+			"key": "python.linting.pylintPath",
+			"type": "executable",
+			"programmatic-default": "pylint",
+			"validation-args":"--version",
+			"hint": "Path to pylint executable"
+		},
+		{
+			"key": "python.linting.enabled",
+			"type": "boolean",
+			"hint": "Can also be toggled using the Python: Enable Linting command"
+		},
+		{
+			"key": "python.linting.lintOnSave",
+			"type": "boolean",
+			"hint": "If true, the linter will run automatically when you save the file. If false, you can use the Python: Run Linting command to manually run the linter."
+		},
+		{
+			"key": "python.linting.maxNumberOfProblems",
+			"type": "number"
+		},
+		{
+			"key": "python.linting.ignorePatterns",
+			"type": "list"
+		},
+		{
+			"key": "python.linting.pylintArgs",
+			"type": "list",
+            "hint": "Pylint arguments",
+            "message": "Custom arguments are specified in the appropriate arguments setting for each linter. Each top-level element of an argument string that's separated by a space on the command line must be a separate item in the args list. For example: [\"--reports\", \"12\", \"--disable-msg\", \"I0011\"]"
+		},
+		{
+			"key": "python.linting.pylintCategorySeverity.convention",
+			"type": "string",
+			"hint": "Can be set to one of Hint, Information, Warning or Error, to configure how linting issues of different categories are reported in the editor and marker views."
+		},
+		{
+			"key": "python.linting.pylintCategorySeverity.refactor",
+			"type": "string",
+			"hint": "Can be set to one of Hint, Information, Warning or Error, to configure how linting issues of different categories are reported in the editor and marker views."
+		},
+		{
+			"key": "python.linting.pylintCategorySeverity.problems",
+			"type": "string",
+			"hint": "Can be set to one of Hint, Information, Warning or Error, to configure how linting issues of different categories are reported in the editor and marker views."
+		},
+		{
+			"key": "python.linting.pylintCategorySeverity.error",
+			"type": "string",
+			"hint": "Can be set to one of Hint, Information, Warning or Error, to configure how linting issues of different categories are reported in the editor and marker views."
+		},
+		{
+			"key": "python.linting.pylintCategorySeverity.fatal",
+			"type": "string",
+			"hint": "Can be set to one of Hint, Information, Warning or Error, to configure how linting issues of different categories are reported in the editor and marker views."
+        },
+        {
+			"key": "python.unitTest.debugHost",
+			"type": "string"
+		},
+		{
+			"key": "python.unitTest.nosetestPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "nosetests"
+		},
+		{
+			"key": "python.unitTest.pyTestPath",
+            "type": "executable",
+            "validation-args":"--version",
+			"programmatic-default": "pytest"
+		},
+        {
+			"key": "python.sortImports.args",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+		},
+        {
+			"key": "python.venvFolders",
+            "type": "list",
+            "message": "Virtual environments folder."
+        },
+        {
+			"key": "python.autoComplete.extraPaths",
+            "type": "list",
+            "message": "Add the location to the auto complete setting."
+        },
+        {
+			"key": "python.autoComplete.preloadModules",
+            "type": "list",
+            "message": "Add the location to the auto complete modules setting."
+        },
+        {
+			"key": "python.formatting.autopep8Args",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.formatting.yapfArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.flake8Args",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.mypyArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.pep8Args",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.prospectorArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.pydocstyleArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.pylamaArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.terminal.launchArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.unitTest.nosetestArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.unitTest.pyTestArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.unitTest.unittestArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.formatting.blackArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.linting.banditArgs",
+            "type": "list",
+            "message": "Custom arguments, as separated by spaces on the command line, is a separate item in the array: For example [\"--arg0-something\", \"-arg1=value\", \"-arg2\", \"value\"]"
+        },
+        {
+			"key": "python.workspaceSymbols.exclusionPatterns",
+            "type": "list"
+        },
+        {
+			"key": "python.analysis.disabled",
+            "type": "list",
+            "message": "Add diagnostic messages entry to suppress."
+        },
+        {
+			"key": "python.analysis.errors",
+            "type": "list",
+            "message": "Add diagnostics messages entry to be shown as errors."
+        },
+        {
+			"key": "python.analysis.information",
+            "type": "list",
+            "message": "Add diagnostics messages entry to be shown as information."
+        },
+        {
+			"key": "python.analysis.typeshedPaths",
+            "type": "list",
+            "message": "Add paths entry to look for typeshed modules."
+        },
+        {
+			"key": "python.analysis.warnings",
+            "type": "list",
+            "message": "Add diagnostics messages entry to be shown as warnings."
+        },
+        {
+			"key": "python.autoComplete.typeshedPaths",
+            "type": "list",
+            "message": "Add path entry to local typeshed repository clone(s)."
+        },
+		{
+			"key": "python.workspaceSymbols.ctagsPath",
+			"type": "executable",
+			"programmatic-default": "ctags",
+			"validation-args":"--version"
+		},
+        {
+			"key": "auto-close-tag.activationOnLanguage",
+            "type": "list",
+            "message": "Add entry to set the languages that the extension will be activated."
+        },
+        {
+			"key": "auto-close-tag.excludedTags",
+            "type": "list",
+            "message": "Add entry to set the languages that the extension will be activated."
+        },
+        {
+			"key": "auto-rename-tag.activationOnLanguage",
+            "type": "list",
+            "message": "Add entry to set the languages that the extension will be activated."
+        },
+        {
+			"key": "css.experimental.customData",
+            "type": "list",
+            "message": "Add full file path entry to custom CSS datasets."
+        },
+        {
+			"key": "docker.importCertificates",
+            "type": "boolean"
+        },
+        {
+			"key": "emmet.excludeLanguages",
+            "type": "list",
+            "message": "Add language entry to exclude Emmet expansions"
+        },
+        {
+			"key": "eslint.trace.server",
+            "type": "string"
+        },
+        {
+			"key": "eslint.nodePath",
+            "type": "string"
+        },
+        {
+			"key": "eslint.runtime",
+            "type": "string"
+        },
+        {
+			"key": "eslint.validate",
+            "type": "list",
+            "message": "Add language identifier entry to specify the files to be validated."
+        },
+        {
+			"key": "eslint.workingDirectories",
+            "type": "list",
+            "message": "Add working directory entry to be used."
+        },
+        {
+			"key": "htmlhint.documentSelector",
+            "type": "list",
+            "message": "Add language services entry to be linted"
+        },
+        {
+			"key": "markdown.styles",
+            "type": "list",
+            "message": "Add stylesheets entry to be used in the Markdown preview."
+        },
+        {
+			"key": "npm.exclude",
+            "type": "string"
+        },
+        {
+			"key": "typescript.tsdk",
+            "type": "string"
+        },
+        {
+			"key": "html.format.contentUnformatted",
+            "type": "string"
+        },
+        {
+			"key": "html.format.extraLiners",
+            "type": "string"
+        },
+        {
+			"key": "html.format.unformatted",
+            "type": "string"
+        },
+        {
+			"key": "files.watcherExclude",
+            "type": "exclude"
+        },
+        {
+			"key": "css.lint.validProperties",
+            "type": "list",
+            "message": "Add the property entry not to be validated against the unknownProperties rule."
+        },
+        {
+			"key": "less.lint.validProperties",
+            "type": "list",
+            "message": "Add the property entry not to be validated against the unknownProperties rule."
+        },
+        {
+			"key": "scss.lint.validProperties",
+            "type": "list",
+            "message": "Add the property entry not to be validated against the unknownProperties rule."
+        },
+        {
+			"key": "editor.quickSuggestions",
+            "type": "choices",
+            "message": "Add the value."
+        }
+	]
+}
+			
